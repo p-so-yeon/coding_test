@@ -42,7 +42,7 @@ def solution():
     max_distance = max(distances)
     
    
-   longDis= [i for i, d in enumerate(distances) if d == max_distance]
+    longDis= [i for i, d in enumerate(distances) if d == max_distance]
     
 
     longD = min(longDis)
